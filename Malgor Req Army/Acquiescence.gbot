@@ -389,9 +389,9 @@
     "$values": [
       {
         "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 8815,
+        "QuestID": 8869,
         "SafeRelogin": true,
-        "Text": "8815"
+        "Text": "8869"
       }
     ]
   },
@@ -405,7 +405,7 @@
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": [
       "Garish Remnant",
-      "Prismatic Seams"
+      "Acquiescence"
     ]
   },
   "Server": {

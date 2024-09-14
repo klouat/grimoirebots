@@ -15,9 +15,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
         "Text": "Stagnant Bandit Correspondence",
         "Alpha": 255,
-        "R": 0,
-        "G": 255,
-        "B": 0
+        "G": 255
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -417,6 +415,7 @@
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
+  "EnableRejection": true,
   "AutoRelogin": true,
   "RelogDelay": 5000,
   "RelogRetryUponFailure": true,

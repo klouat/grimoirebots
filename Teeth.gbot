@@ -389,8 +389,9 @@
     "$values": [
       {
         "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 8531,
-        "Text": "8531",
+        "QuestID": 7780,
+        "SafeRelogin": true,
+        "Text": "7780",
         "IsInProgress": true
       }
     ]
@@ -404,7 +405,9 @@
   "Drops": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": [
-      "Bandit's Correspondence"
+      "Teeth",
+      "Tooth",
+      "Wisdom Tooth"
     ]
   },
   "Server": {
@@ -415,6 +418,7 @@
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
+  "EnableRejection": true,
   "AutoRelogin": true,
   "RelogDelay": 5000,
   "RelogRetryUponFailure": true,

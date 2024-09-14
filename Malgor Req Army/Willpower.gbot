@@ -278,7 +278,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "r11",
+        "Value1": "r10",
         "Value2": ""
       },
       {

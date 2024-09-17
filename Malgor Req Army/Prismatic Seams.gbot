@@ -179,52 +179,6 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "r1",
-        "Pad": "Left"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "r1",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 2,
-        "IndexString": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Monster": "*",
-        "Index": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Monster": "*",
-        "Index": "2"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Monster": "*",
-        "Index": "3"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Monster": "*",
-        "Index": "4"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 4,
-        "IndexString": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "ATTACK2"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
         "Cell": "r2",
         "Pad": "Left"
       },
@@ -267,18 +221,64 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "ATTACK3"
+        "Name": "ATTACK2"
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
         "Cell": "r3",
-        "Pad": "Spawn"
+        "Pad": "Left"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
         "Value1": "r3",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "3"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "4"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 4,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "ATTACK3"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r3a",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "r3a",
         "Value2": ""
       },
       {
@@ -391,7 +391,14 @@
         "$type": "Grimoire.Game.Data.Quest, Grimoire",
         "QuestID": 8815,
         "SafeRelogin": true,
-        "Text": "8815"
+        "Text": "8815",
+        "IsInProgress": true
+      },
+      {
+        "$type": "Grimoire.Game.Data.Quest, Grimoire",
+        "QuestID": 8814,
+        "SafeRelogin": true,
+        "Text": "8814"
       }
     ]
   },

@@ -118,7 +118,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBackgroundPacket, Grimoire",
         "Label": "AggroMon",
-        "Packet": "%xt%zm%aggroMon%87060%2%3%4%5%12%13%14%25%",
+        "Packet": "%xt%zm%aggroMon%87060%2%3%4%5%12%13%14%8%11%",
         "Delay": 1000
       },
       {
@@ -271,14 +271,14 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "r11",
-        "Pad": "Spawn"
+        "Cell": "r4",
+        "Pad": "Left"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "r11",
+        "Value1": "r4",
         "Value2": ""
       },
       {
@@ -317,14 +317,14 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "r11",
-        "Pad": "Spawn"
+        "Cell": "r5",
+        "Pad": "Right"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "r11",
+        "Value1": "r5",
         "Value2": ""
       },
       {
@@ -392,7 +392,8 @@
         "QuestID": 7780,
         "SafeRelogin": true,
         "Text": "7780",
-        "IsInProgress": true
+        "IsInProgress": true,
+        "CanComplete": true
       }
     ]
   },

@@ -118,7 +118,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBackgroundPacket, Grimoire",
         "Label": "AggroMon",
-        "Packet": "%xt%zm%aggroMon%328326%1%2%15%3%4%14%8%9%10%11%12%13%5%6%16%17%",
+        "Packet": "%xt%zm%aggroMon%328326%1%2%15%3%4%14%8%9%10%11%12%13%5%6%",
         "Delay": 1000
       },
       {
@@ -317,14 +317,14 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "r4",
+        "Cell": "r3a",
         "Pad": "Spawn"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "r4",
+        "Value1": "r3a",
         "Value2": ""
       },
       {
